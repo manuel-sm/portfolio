@@ -60,8 +60,7 @@ export default function Footer() {
           <h1 className="footer__col1__title">Manuel Santiago</h1>
           <PText>
             A software developer from Veracruz, México.
-            I always make websites that have unique designs and also has a good
-            performance rate.
+            I&apos;m always learning how to write software more efficiently.
           </PText>
         </div>
         <div className="footer__col2">
@@ -105,26 +104,26 @@ export default function Footer() {
               },
               {
                 title: 'Veracruz, México',
-                path: 'http://google.com/maps',
+                path: '',
               },
             ]}
           />
         </div>
         <div className="footer__col4">
           <FooterCol
-            heading="social Links"
+            heading="Social Links"
             links={[
+              {
+                title: 'Resume',
+                path: 'https://resume.io/r/rIchtXT3Y',
+              },
               {
                 title: 'Github',
                 path: 'https://github.com/manuel-sm',
               },
               {
-                title: 'Resume',
-                path: 'http://twitter.com',
-              },
-              {
-                title: 'LinkedIn',
-                path: 'http://instagram.com',
+                title: 'Frontend Mentor',
+                path: 'https://www.frontendmentor.io/profile/manuel-sm',
               },
             ]}
           />
