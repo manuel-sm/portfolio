@@ -57,9 +57,9 @@ export default function Footer() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <h1 className="footer__col1__title">Ayan Khan</h1>
+          <h1 className="footer__col1__title">Manuel Santiago</h1>
           <PText>
-            A freelance web designer and developer from Chittagong, Bangladesh.
+            A software developer from Veracruz, México.
             I always make websites that have unique designs and also has a good
             performance rate.
           </PText>
@@ -96,15 +96,15 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+88012312',
-                path: 'tel:+88012312',
+                title: '',
+                path: 'tel:',
               },
               {
-                title: 'webcifar@gmail.com',
-                path: 'mailto:webcifar@gmail.com',
+                title: 'santiago.mtzmanuel@gmail.com',
+                path: 'mailto:santiago.mtzmanuel@gmail.com',
               },
               {
-                title: 'GEC Circle, Chittagong, Bangladesh',
+                title: 'Veracruz, México',
                 path: 'http://google.com/maps',
               },
             ]}
@@ -115,15 +115,15 @@ export default function Footer() {
             heading="social Links"
             links={[
               {
-                title: 'Facebook',
-                path: 'http://facebook.com',
+                title: 'Github',
+                path: 'https://github.com/manuel-sm',
               },
               {
-                title: 'Twitter',
+                title: 'Resume',
                 path: 'http://twitter.com',
               },
               {
-                title: 'Instagram',
+                title: 'LinkedIn',
                 path: 'http://instagram.com',
               },
             ]}
