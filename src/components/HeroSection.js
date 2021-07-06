@@ -1,10 +1,10 @@
-import React from 'react';
-import styled from 'styled-components';
-import HeroImg from '../assets/images/hero.png';
-import Button from './Button';
-import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
-import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
-import PText from './PText';
+import React from "react";
+import styled from "styled-components";
+import HeroImg from "../assets/images/hero.png";
+import Button from "./Button";
+import SocialMediaArrow from "../assets/images/social-media-arrow.svg";
+import ScrollDownArrow from "../assets/images/scroll-down-arrow.svg";
+import PText from "./PText";
 
 const HeroStyles = styled.div`
   .hero {
@@ -26,7 +26,7 @@ const HeroStyles = styled.div`
       width: 100%;
     }
     .hero__name {
-      font-family: 'Montserrat SemiBold';
+      font-family: "Montserrat SemiBold";
       font-size: 7rem;
       color: var(--white);
     }
@@ -154,16 +154,16 @@ export default function HeroSection() {
         <div className="container">
           <h1 className="hero__heading">
             <span>Hello, This is</span>
-            <span className="hero__name">Ayan Khan</span>
+            <span className="hero__name">Manuel Santiago</span>
           </h1>
           <div className="hero__img">
             <img src={HeroImg} alt="" />
           </div>
           <div className="hero__info">
             <PText>
-              I am working as a freelance web designer and developer for 4
-              years. I love to design and make new web experiences for the
-              people.
+              I am a web developer and I work with HTML, CSS, Javascript, React,
+              MySQL, PHP and other tecnologies. I love to code and learn new
+              technologies.
             </PText>
             <Button btnText="see my works" btnLink="/projects" />
           </div>

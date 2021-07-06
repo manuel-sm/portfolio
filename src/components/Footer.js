@@ -133,7 +133,7 @@ export default function Footer() {
       <div className="copyright">
         <div className="container">
           <PText>
-            © 2021 - Ayan Khan | Designed By{' '}
+            © 2021 - Manuel Santiago | Designed By{' '}
             <a target="_blank" rel="noreferrer" href="http://webcifar.com">
               web cifar
             </a>{' '}
