@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import HeroImg from "../assets/images/hero.png";
 import Button from "./Button";
-import SocialMediaArrow from "../assets/images/social-media-arrow.svg";
+/* import SocialMediaArrow from "../assets/images/social-media-arrow.svg"; */
 import ScrollDownArrow from "../assets/images/scroll-down-arrow.svg";
 import PText from "./PText";
 
@@ -161,13 +161,12 @@ export default function HeroSection() {
           </div>
           <div className="hero__info">
             <PText>
-              I am a web developer and I work with HTML, CSS, Javascript, React,
-              MySQL, PHP and other tecnologies. I love to code and learn new
-              technologies.
+              I am a software developer and I work with HTML, CSS, Javascript, React,
+              MySQL, PHP and more. I love to code and learn new technologies.
             </PText>
             <Button btnText="see my works" btnLink="/projects" />
           </div>
-          <div className="hero__social">
+          {/* <div className="hero__social">
             <div className="hero__social__indicator">
               <p>Follow</p>
               <img src={SocialMediaArrow} alt="icon" />
@@ -212,7 +211,7 @@ export default function HeroSection() {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
           <div className="hero__scrollDown">
             <p>Scroll</p>
             <img src={ScrollDownArrow} alt="ScrollDown Arrow" />
