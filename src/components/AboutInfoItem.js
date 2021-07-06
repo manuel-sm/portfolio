@@ -5,7 +5,7 @@ import PText from './PText';
 const AboutItemStyles = styled.div`
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   position: relative;
   /* gap: 5rem; */
   margin-top: 3rem;
@@ -15,7 +15,6 @@ const AboutItemStyles = styled.div`
   .items {
     display: flex;
     gap: 1.5rem;
-    position: absolute;
     left: 18rem;
   }
   .item {
@@ -30,6 +29,7 @@ const AboutItemStyles = styled.div`
     .items {
       position: initial;
       gap: 1rem;
+      flex-wrap: wrap;
     }
     .title {
       font-size: 2rem;

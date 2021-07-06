@@ -81,26 +81,22 @@ export default function About() {
           <div className="top-section">
             <div className="left">
               <p className="about__subheading">
-                Hi, I am <span>Ayan Khan</span>
+                Hi, I am <span>Manuel Santiago</span>
               </p>
-              <h2 className="about__heading">A freelance Web developer</h2>
+              <h2 className="about__heading">A software developer</h2>
               <div className="about__info">
                 <PText>
-                  I am from chittagong, Bangladesh. A place of beauty and
-                  nature. Since my childhood, i love art and design. I always
-                  try to design stuff with my unique point of view. I also love
-                  to create things that can be usefull to others.
+                  I am from Veracruz, México. A place of beauty and nature.
+                  Since my childhood, I love sports, music and technology. I
+                  always try to improve my coding skills.
                   <br /> <br />
-                  I started coding since I was in high school. Coding is also an
-                  art for me. I love it and now I have the opportunity to design
-                  along with the coding. I find it really interesting and I
-                  enjoyed the process a lot.
+                  I decided to be a software developer because it&apos;s fascinating
+                  to create things and make them work. I find it really interesting
+                  and I enjoyed the process a lot.
                   <br />
                   <br />
-                  My vision is to make the world a better place. Now almost
-                  everything is becoming better than ever. It is time for us to
-                  create more good stuff that helps the world to become a better
-                  place.
+                  My goal is to improve as a software developer and contribute to writing
+                  clean code and easy to read.
                 </PText>
               </div>
               <Button btnText="Download CV" btnLink="#" />
@@ -114,48 +110,27 @@ export default function About() {
               <h1 className="about__info__heading">Education</h1>
 
               <AboutInfoItem
-                title="School"
-                items={['Nasirabad Govt. High School, Chattogram']}
-              />
-              <AboutInfoItem
-                title="Collage"
-                items={['BAF Shaheen College Chattogram']}
-              />
-              <AboutInfoItem
-                title="Varsity"
-                items={['University Of Chitiagong']}
+                title="University"
+                items={['Instituto Tecnológico Superior de Teziutlán']}
               />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">My Skills</h1>
 
               <AboutInfoItem
-                title="FrontEnd"
-                items={['HTML', 'CSS', 'JavaScript', 'REACT']}
+                title="Programming Languages"
+                items={['Javascript', 'PHP', 'C#', 'Java']}
               />
               <AboutInfoItem
-                title="BackEnd"
-                items={['Node', 'Express', 'PHP']}
-              />
-              <AboutInfoItem
-                title="Design"
-                items={['Photoshop', 'After Effects', 'Figma']}
-              />
-            </div>
-            <div className="about__info__item">
-              <h1 className="about__info__heading">Experiences</h1>
-
-              <AboutInfoItem
-                title="2010-2012"
-                items={['junior developer at web Cifar']}
-              />
-              <AboutInfoItem
-                title="2012-2016"
-                items={['Front end developer at web Cifar ']}
-              />
-              <AboutInfoItem
-                title="2016-"
-                items={['Freelance web Developer']}
+                title="Tools"
+                items={[
+                  'MongoDB',
+                  'ExpressJS',
+                  'NodeJS',
+                  'ReactJS',
+                  'MySQL',
+                  'Git',
+                ]}
               />
             </div>
           </div>
