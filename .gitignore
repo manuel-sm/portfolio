@@ -3,6 +3,7 @@ haters/
 *.sketch
 *.fig
 course-layout.md
+.vscode/
 
 # production
 /build
