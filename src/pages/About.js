@@ -111,7 +111,15 @@ export default function About() {
 
               <AboutInfoItem
                 title="University"
-                items={['Instituto Tecnológico Superior de Teziutlán']}
+                items={['Instituto Tecnológico Superior de Teziutlán','2016-2020']}
+              />
+              <AboutInfoItem
+                title="Course"
+                items={['BEDU - Web Development with Javascript','Oct 2020 - Jan 2021']}
+              />
+              <AboutInfoItem
+                title="Course"
+                items={['BEDU - Cibersecurity','May 2021 - Jun 2021']}
               />
             </div>
             <div className="about__info__item">
